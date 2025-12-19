@@ -1,0 +1,104 @@
+body{
+    background-color: #f7f7f7;
+    color: #000;
+    font-family: Calibri;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2px;
+}
+h1{
+    width: 100%;
+    font-size: 12em;
+    margin: 0px;
+}
+button{
+    border-radius: 2em;
+    font-size: 6em;
+    background-color: #DFDFDF;
+}
+button:hover{
+    background-color: #D7D7D7;
+}
+button:active{
+    background-color: #CFCFCF;
+}
+textarea{
+    width: 95%;
+    resize: none;
+    background-color: #EFEFEF;
+    border: 2px solid black;
+    border-radius: 2em;
+    height: calc(100% - 8em);
+    padding: 1em;
+}
+div#input, div.note{
+    height: 64em;
+    margin: 0px;
+    width: 95%;
+    max-width: 128em;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #E7E7E7;
+}
+div#left, div#right{
+    padding: 5px;
+}
+div#seperator{
+    height: 100%;
+    border: 2px solid black;
+}
+div#website{
+    height: 100vh;
+    overflow-y: auto;
+    width: 50%;
+    margin: auto;
+    background-color: #EFEFEF;
+    min-width: 128em;
+}/*
+div.note{
+    height: 35%;
+    margin: 5px;
+    width: 95%;
+    background-color: #DFDFDF;
+}*/
+div#notes{
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+p{
+    height: 10%;
+}
+pre{
+    height: 100%;
+}
+p,pre{
+    margin: 5px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    /*word-wrap: normal;
+    word-break: normal;*/
+    width: 97.5%;
+}
+div.pre{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 82.5%;
+    max-height: 82.5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #E7E7E7;
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    color: grey;
+}
+html{
+    overflow-y: hidden;
+}
