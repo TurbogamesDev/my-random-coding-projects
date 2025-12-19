@@ -1,6 +1,8 @@
 # my-random-coding-projects
 Random coding projects that I've made over the years. Many of these are broken.
 
+This repository is a personal archive of my coding journey. I am not looking for contributions, bug reports, or pull requests at this time. Please feel free to look at the code for inspiration, but it is provided "as-is.
+
 ## Automatic_Minecraft_Mods_Updater
 It will automatically update the mods in your `.minecraft` folder from [Modrinth](https://modrinth.com/). Replace the directories in the files with the full path to your `.minecraft` folder. I would provide documentation, but I have no clue how it works either.
 
